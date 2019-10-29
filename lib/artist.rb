@@ -6,6 +6,9 @@ class Artist
     @songs = [] #empty collection of songs
   end
 
+def self.song_count
+  @@song_count
+end
   def songs
     @songs
   end
